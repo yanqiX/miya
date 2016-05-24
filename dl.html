@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/commen.css" />
+	</head>
+	<body id="dlbody">
+		<div id="dlcon">
+			<div class="log">
+				<a href="/"><img src="img/logo.png" alt=""></a>
+			</div>
+			<div class="logliR">
+				<div class="loglinT">
+					<span class="loglinT_spl">登录蜜芽</span>
+					<span class="loglinT_spr">
+						<i>还没有蜜芽账号？</i>
+						<a href="">30秒注册</a>
+					</span>
+				</div>
+				<form id="log_from">
+					<div class="inputWarp">
+						<div class="inputGroup ok ">
+			                <div class="inputWrap">
+			                	<div class="user-icon"></div>
+			                    <input type="text" placeholder="手机号/用户名/邮箱" id="login_username" name="username" class="input" validate="required" tabindex="1" value="">
+			                </div>
+			                <p class="loginNotice" style="display: block;">不能为空</p>
+		            </div>
+					<div class="inputGroup">
+		                <div class="inputWrap">
+		                    <div class="pass-icon"></div>
+		                    <input type="password" placeholder="密码" id="login_password" name="password" class="input" validate="required" tabindex="2">
+		                </div>
+		                <p class="loginNotice loginErrorNotice mm" style="display: block;">不能为空</p>
+	            </div>
+	            <div class="formLine clearfix">
+	                <div class="check_radio l">
+	                    <label for="agree_userterm">
+	                        <input type="checkbox" checked="" id="agree_userterm" name="auto_login">
+	                        &nbsp;自动登录
+	                    </label>
+	                </div>
+	                <a class="r" href="" target="_blank">忘记密码?</a>
+	            </div>
+	            <div id="verityGroup" class="inputGroup ok">
+	                <div class="verityWrap clearfix">
+	                    <div class="inputWrap l">
+	                        <input type="text" placeholder="输入验证" id="authcode" name="authcode" class="input" tabindex="3">
+	                    </div>
+	                    <img id="login_verified_code">
+	                    <a id="login_verified_refresh" href="">看不清</a>
+	                     <p class="loginNotice loginErrorNotice cd"></p>
+	                </div>
+	                <p class="registerNotice1  authcode tipauthcode" style="display:none;">
+	                    <span class="tipcon"></span>
+	                    <span class="rownotice"></span>
+	                </p>
+	                <p class="vcNotice"></p>
+	            </div>
+				<p class="loginButton">
+                	<a id="login_submit" class="loginbtn">登 录</a>
+            	</p>
+				</form>
+			</div>
+		</div>
+		<div class="simpleVersionFooter  gray2">
+Copyright ©2016 北京花旺在线商贸有限公司 Miyabaobei.com 保留一切权利。客服热线： 400-789-2000。京ICP证140430号 京ICP备14006215号
+		</div>
+	</body>
+</html>

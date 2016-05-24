@@ -1,0 +1,71 @@
+/*首页*/
+/*头部*/
+.header{width: 100%; position: relative; z-index: 100; color: #666; font-family: Tahoma, Arial, 'Hiragino Sans GB', 微软雅黑, sans-serif; font-size: 14px; line-height: 1.5; }
+.header-topbar{position: relative; font-size: 12px; height: 29px; line-height: 29px; border-bottom: 1px solid #E5E5E5; background: #f2f2f2; } 
+.w1100{width: 1100px; margin: 0 auto;}
+.l{float: left; display: inline;} 
+.header-topbar .l a{margin-right: 30px; text-decoration: none; color: #666666; }
+.header-topbar .l a .mia-icon{color: #fa4b9b;}
+.header-topbar .mia-icon{margin: 0 0.2em; font-size: 14px; }
+.mia-icon{font-family: miaicon; font-style: normal; font-weight: 400; speak: none; display: inline-block; text-decoration: inherit; width: 1em; text-align: center; font-variant: normal; text-transform: none; line-height: 1em; -webkit-font-smoothing: antialiased;}
+.header-topbar .r{position: relative; padding-right: 5px; float: right; display: inline;}
+.header-topbar .r .welcome, .header-topbar .r a{margin: 0 10px; line-height: 30px;}
+.header-func .w1100{position: relative; padding-right: 5px; margin: 0 auto; width: 1100px; padding: 20px 0 25px 0; z-index: 5;}
+.header-func .logo{ margin: 10px 0 0 0; width: 230px; text-decoration: none; color: #666666;}
+.l{float: left; display: inline;}
+.r{float: right; display: inline; }
+.func-search{position: relative; float: left; margin: 28px 0 0 0; }
+.clearfix:after{content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+.func-search .form-search{float: left; margin-right: -2px; padding: 6px 0; width: 383px; height: 18px; line-height: 18px; text-indent: 10px; font-size: 12px; border: 2px solid #FA4B9B; }
+.func-search .form-search-btn{background: #FA4B9B; float: left; margin: 0; padding: 0; clear: none; font-size: 14px; width: 90px; height: 34px; border: none; text-align: center; font-weight: 700; letter-spacing: 5px; cursor: pointer; line-height: normal; outline: 0; color: #FFFFFF;}
+.func-search .lenovoWord{position: absolute; top: 33px; width: 384px; border: 1px solid #E5E5E5;}
+.func-search .lenovoWord a{display: block; padding: 0 10px; height: 24px; line-height: 24px; font-size: 12px; background: #FFFFFF; text-decoration: none; color: #666666; }
+.func-search .hot{margin-top: 6px; width: 385px; height: 18px; overflow: hidden;}
+.func-search .hot a{display: inline-block; vertical-align: 2px; margin-left: -2px; padding: 0 12px; line-height: 1.2; border-left: 1px solid #d7d7d7; font-size: 12px; text-decoration: none; color: #666666;}
+.func-search .hot a:hover{color: #FA4B9B;}
+.func-cart{position: relative; float: left; margin: 28px 30px 0 28px; }
+.func-cart .cart-item{display: block;position: relative; z-index: 2; border: 1px solid #E5E5E5; padding: 0 0 0 35px; width: 107px; height: 32px; line-height: 32px; cursor: pointer; text-align:center; font-size: 14px; color: #4f4f4f; }
+.func-cart .icon-cart{position: absolute; top: -1px; left: -1px; width: 36px; height: 34px; line-height: 34px; background: #ff3893; color: #FFFFFF; font-size: 18px; }
+.mia-icon{font-family: miaicon; font-style: normal; font-weight: 400; display: inline-block; text-decoration: inherit; width: 1em;  text-align: center; line-height: 1em;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*登录界面*/
+#dlbody{font-size: 12px; font-family: verdana, geneva, sans-serif; color: #666666;}
+#dlcon{width: 965px; height: 502px; margin: 0 auto; margin-top: 20px; padding-top: 75px; background: url(../img/14818105826269.jpg) no-repeat left 112px;}
+.logliR{position: absolute; left: 800px; top: 92px; width: 304px; box-shadow: 0 0 4px rgba(0,0,0,0.75); padding: 0 20px 20px 20px;}
+.loglinT{color: #e31256; height: 60px; line-height: 60px; margin-bottom: 13px;}
+.loglinT_spl{font-size: 20px; float: left; color: #f450a2;}
+.loglinT_spr{float: right; color: #E31256; line-height: 60px; }
+.loglinT_spr a{text-decoration: none; color: #666;}
+.log_form{width: 304px; height: 241px;}
+.inputGroup{position: relative; height: 56px; display: block;}
+.inputWrap{background: #fff; border: 1px solid #cfcfcf; box-shadow: 0 0 2px 1px rgba(207,207,207,0.4); position: relative;}
+.user-icon{background: url(../img/sign.png) no-repeat left -37px top -10px; display: block; height: 22px; left:0; position: absolute; top: 6px; width: 38px; z-index: 1;}
+.inputWrap input{color: #000000; font-size: 14px; line-height: 1.5; overflow: hidden; padding: 8px 8px 8px 38px; position: relative; width: 256px; vertical-align:middle; font-family: inherit;}
+.loginNotice{display: none; color: #e42626; line-height: 20px; padding: 2px 0 2px 3px; border: 1px solid #ffbdbf; background: #ffebec; width: 299px; position: relative; z-index: 10;}
+.pass-icon {background: url(../img/sign.png) no-repeat left -37px top -50px; display: block; height: 22px; position: absolute; top:6px; width:38px; z-index: 1;}
+.formLine{height: 20px; line-height: 20px; margin-bottom: 10px; display: block;}
+.l{float: left; display: block; }
+.formLine input{vertical-align: middle; font-family: inherit; font-size: 12px;}
+.r{float: right; text-decoration: none; color: #666666; line-height: 20px;}
+#verityGroup{height: 43px; position: relative;}
+.verityWrap{width:300px; float: left; display: block; }
+#verityGroup .inputWrap{height: 35px; line-height: 35px; vertical-align: middle; display: inline-block; margin-right: 12px;}
+.verityWrap input{padding: 8px; width: 90px; }
+.verityWrap a{text-decoration: none; color: #666666; line-height: 35px;}
+.loginButton{margin-top: 15px; }
+#login_submit{background: #f450a2; display: inline-block; padding: 4px 14px 7px; width: 255px; height: 30px; line-height: 30px; text-decoration: none; color: #FFFFFF; text-align: center; font-size: 20px; font-family: inherit; font-weight: 700;} 
+
+.simpleVersionFooter{width:100%; display: block; margin: 0 auto; text-align: center; padding: 30px; line-height: 22px; color: #CCCCCC; position: absolute; top:630px; left: -50px;}
+
