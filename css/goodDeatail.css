@@ -1,0 +1,108 @@
+/*商品详情*/
+.warp{padding-bottom: 20px;}
+.breadCrumbs{height: 50px; line-height: 50px;}
+.w1004{width: 1000px; margin: 0 auto; font-family: \5b8b\4f53;}
+a{text-decoration: none; color: #666666;}
+a:hover{text-decoration: none;}
+
+/*内容*/
+.detail .titlecon{border-bottom: 1px solid #f9f5f4; background: #FFFFFF; padding: 20px;}
+.detail .titlecon .left{width: 650px; font-size: 18px; line-height: 26px; }
+.yahei{font-family: \5FAE\8F6F\96C5\9ED1;}
+.detail .titlecon .right{width: 260px; padding-left: 50px;}
+/*商品图片*/
+.show{background: #FFFFFF; padding: 20px;}
+.rel{position: relative;}
+.l{float: left;}
+.show .left{width: 447px;}
+.show .right{width: 463px; padding-left: 50px;}
+.l{display: inline-block;}
+.show .big{height: 447px; background: #FFFFFF;}\n
+.show .big img{width: 447px; height: 447px;}
+.show .small{height: 100px; padding-top: 8px; }
+.show .small img{padding: 2px; border: 1px solid #f4f4f4; float: left; margin-right: 6px; width: 77px; height: 77px; }
+/*商品选购信息*/
+.pi_price_box{padding: 23px 0 13px ; position: relative;}
+.pbox_price{display: inline-block; font-size: 30px; color: #f43499;}
+em, i{font-style: normal;}
+.pbox_yen{font-size: 20px;}
+.pbox_off{position: relative; top: -3px; font-size: 12px; color: #FFFFFF; background-color: gray; border-radius: 3px; padding: 0 5px; margin: 0 7px 0 3px;}
+.pbox_market{padding: 0 20px 0 10px; color: gray;}
+.pi_attr_box{min-height: 375px;}
+.discount_f{display: none;}
+.i_youhui{display: none;}
+input{font-size: 12px; font-family: inherit;}
+.pi_attr_box dt{float: left; font-size: 12px; width: 46px; text-align: left; color: gray; line-height: 25px;}
+.color, .color_name, .color_list{vertical-align: middle;}
+.color{overflow: hidden; padding-top: 12px;}
+.pi_attr_box dt{float: left; font-size: 12px; width: 46px; text-align: left; color: gray; line-height: 25px;}
+.color_list{float: left; width: 340px;}
+.color_list_item{float: left; width: 38px; height: 47px; position: relative; margin: 0 15px 9px 0;}
+.color_list_item a{display: inline-block; width: 43px; height: 43px; padding: 1px; border: 1px solid #b5b5b5; }
+.color_list_item a:hover{border-color: #f43499;}
+.color_list .selected{padding: 0; border: 2px solid #F43499; }
+.color_list_item a{display: inline-block; width: 43px; height: 43px;}
+.color_list .selected .i_select{display: block; z-index: 2;}
+.i_select, .sli_disabled, .sli_chance_icon, .i_notice_msg, .num_reduce, .num_add, .btn_msg, .btn_cart, .pso_submit, .pi_promise_item, .sas_item_close, .sa_close, .selector_txt, .share_sn, .share_tx, .share_kj, .share_rr, .share_db, .share_kx{background: url(../img/detail_imgs_png8.png) no-repeat;}
+.i_select{position: absolute; bottom: 0; right: -7px; width: 17px; height: 16px; background-position: -50px -100px;}
+#detail_size{display: block; overflow: hidden; padding: 3px 0 15px; }
+#detail_size_list{display: block; vertical-align: middle; width: 350px; float: left; margin-left: -3pxt;}
+#detail_size_list .size_text{float: left; height: 36px; line-height: 36px; margin: 2px 3px; text-align: center;}
+#detail_size_list p a{display: block; border: 1px solid #B3B3B3; position: relative; height: 34px; line-height: 34px; z-index: 20;}
+#detail_size_list p a span{border: 1px solid #FFFFFF; display: block; padding: 2px; height: 30px; line-height: 30px; vertical-align: middle; overflow: hidden;}
+#detail_size_list p a:hover span{border: 1px solid #F10280; color: #F10280;}
+#detail_size_list p a.selected{border: 1px solid #F10280;}
+#detail_size_list p a.selected span{border: 1px solid #f10280; padding: 2px; font-weight: bold;}
+.i_num{padding: 16px 1px; position: relative; height: 30px; margin: -1px 0; }
+.i_notice_msg{position: absolute; height: 26px; line-height: 26px; bottom: 26px; right: 0; padding-left: 20px; color: #f3499; background-position: -500px -250px; display: none;}
+.num_box{float: left; position: relative; height: 28px; border: 1px solid #B3B3B3;}
+.num_reduce, .num_input, .num_add{float: left; width: 24px; height: 28px;}
+.num_reduce_disabled{background-position: 0 -150px; cursor: default;}
+.num_input{text-align: center; line-height: 28px; width: 28px; background: #FFFFFF;}
+.num_add{background-position: -50px -150px; cursor: pointer;}
+#stockTips{display: none;}
+.num_msg{float: left; height: 28px; line-height: 28px; padding-left: 10px; font-size: 12px; color: #858585;}
+.num_msg span{color: #f43499;}
+.other{overflow: hidden; padding: 3px 0 15px;}
+.other_box{float: left; height: 25px; line-height: 25px; text-align: right; font-size: 12px; color: gray;}
+.service_mia{width: 60px; height: 36px; float: left; margin-top: 2px; position: relative;}
+.service_mia a{position:absolute;top:0; left:0; width: 60px; height: 36px; z-index: 9;}
+.ot_dt{background-color: #FDE5EB; float: left; font-size: 12px; line-height: inherit; padding: 4px 0; text-align: center; width: 60px;}
+.ot_dd{background-color: #FDE5EB;color: #F43499;float: left;padding: 15px 80px 4px 10px;}
+.suitType{margin: 10px 0;}
+.button_f{float: left; padding: 2px 12px 5px 0; position: relative; width: 210px; height: 50px;}
+.btn_06, .btn_07{font-size: 14px; margin: 0 auto 10px auto;}
+.btn_07_f { display: block; width: 100px; height: 41px; color: rgb(255, 255, 255); text-align: center; background: rgb(53, 190, 242); font: bold 14px/41px 宋体; border-radius: 2px}
+#J_cartAdd_submit{background: #f450a2; border-radius: 2px; display: inline-block; padding: 4px 24px 7px; width: 150px; height: 30px; line-height: 30px; color: #FFFFFF; text-align: center; font: bold 14px/41px 宋体;}
+#sepcailNotice{color: #F450A2; display: none; margin-top: 8px;}
+.button_f{float: left; padding: 2px 12px 5px 0; position: relative; height: 50px; width: 210px;}
+.pbox_pms{width: 447px; padding: 5px 0;}
+.pbox_pms dl{overflow: hidden; zoom: 1; margin-bottom: 2px;}
+.pbox_pms dt{float: left; width: 30px; text-align: center; padding: 3px 0px; background-color: #f43499; color: #fff; font-size: 12px; line-height: inherit;}
+.pbox_pms dd{padding: 2px 10px; background-color: #fde5eb; color: #f43499; overflow: hidden;}
+.pi_share_box{padding-top: 30px; height: 20px; line-height: 20px; font-size: 12px; padding-bottom: 10px; color: gray;}
+.share_tit{float: left;}
+body .jiathis_style_24x24 a{background-image: url(../img/shareico.png); width: 20px; height: 20px !important; padding: 0 !important; margin-right: 5px; float: left}
+body .jiathis_style_24x24 .jiathis_button_weixin{background-position: -180px 0;}
+body .jiathis_style_24x24 .share_button_tsina, body .jiathis_style_24x24 .jiathis_button_tsina{background-position: 0 0}
+body .jiathis_style_24x24 .share_button_tqq, body .jiathis_style_24x24 .jiathis_button_tqq{background-position: -30px 0}
+body .jiathis_style_24x24 .share_button_qzone, body .jiathis_style_24x24 .jiathis_button_qzone{background-position: -60px 0}
+body .jiathis_style_24x24 .share_button_renren, body .jiathis_style_24x24 .jiathis_button_renren{background-position: -90px 0}
+body .jiathis_style_24x24 .share_button_douban, body .jiathis_style_24x24 .share_button_douban{background-position: -120px 0}
+body .jiathis_style_24x24 .jiathis_button_meilishuo{background-position: -150px 0}
+.detail .poppro{background: #fff url(../img/cline.png) repeat-x 0 0; overflow: hidden; margin: 0; padding: 38px 0 12px 0;}
+.detail .poppro .cell{width: 155px; float: left; position: relative; margin: 0 0 0 10px;}
+.detail .poppro .cell .img{width: 155px; height: 155px; vertical-align: top; border: solid 1px #ebebeb; margin-bottom: 6px;}
+.detail .poppro .cell .p1{color: #666; line-height: 18px; margin-bottom: 4px;}
+.detail .poppro .cell .p1 a:link, .detail .poppro .cell .p1 a:visited{color: #666; text-decoration: none;}
+.detail .poppro .cell .p2{color: #f34fa1; line-height: 18px;}
+.introduction{padding-top: 20px;}
+.introduction .left{width: 770px; background: #fff;}
+.introduction .right{width: 210px; margin-left: 20px; background: #fff;}
+.pubtitle{font-size: 20px; color: #fc62af; height: 35px; line-height: 25px; padding-top: 5px; background: #F2F2F0;}
+.pubcon{background: #fff; padding: 10px 10px 0px 10px;}
+.cp .block{padding-bottom: 10px; border-bottom: 1px dashed #dadada; line-height: 20px; margin-bottom: 10px;}
+.cp .block img{float: left; margin-right: 10px;}
+.cp p.tit{padding-bottom: 5px; line-height: 16px;}
+.pink{color: #f450a2;}
+
